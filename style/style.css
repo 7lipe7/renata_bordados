@@ -4,41 +4,128 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: system-ui, sans-serif;
+    padding-top: 80px; 
+}
+
+
 .nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-ul {
+
+.info {
+    margin-left: auto;
+}
+
+
+.info ul {
     display: flex;
-    margin-left: 80vh;
     gap: 40px;
     list-style: none;
-    justify-content: end;
-    align-items: end;
-    
 }
 
-li {
-    font-size: 1.2rem;
+
+button {
+    margin-left: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #292828;
+}
+
 
 a {
     text-decoration: none;
     color: black;
-    transition: 0.3s;
 }
 
 a:hover {
     color: #555;
 }
 
-button{
-margin: none;
-background-color: #555;
-color: aliceblue;
-padding: 10px;
-border-radius: 20px;
+.page1 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 60px 10%;
+
+}
+
+
+.page1-text {
+    max-width: 500px;
+        
+}
+
+.page1img img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.page1-text button{
+
+margin: 25px auto;
+}
+#Contato{
+width: 200px;
+font-size: 1rem;
+}
+#produto{
+width: 200px;
+background-color: #fff;
+border: 1px solid black;
+color: #000000;
+font-size: 1rem;
+}
+
+.page2{
+height: 60vh;
+text-align: center;
+}
+.page2 h2{
+font-size: 2.5rem;
+}
+
+
+.container{
+margin-top: 10%;
+display: flex;
+gap: 50px;
+justify-content: center;
+}
+.box{
+  
+background-color: aliceblue;
+width: 350px ;
+height: 200px ;
+border-radius: 8px;
+margin: 10px;
+}
+.box:hover{
+  box-shadow: 10px 8px 10px #29282838;
+  transition: 0.8s;
+}
+.page3 h2{
+    font-size: 2.5rem;
+}
+.page3{
+text-align: center;
 }
