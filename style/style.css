@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+ul {
+    display: flex;
+    margin-left: 80vh;
+    gap: 40px;
+    list-style: none;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #555;
+}
+
+button{
+margin: none;
+background-color: #555;
+color: aliceblue;
+padding: 10px;
+border-radius: 20px;
+}
