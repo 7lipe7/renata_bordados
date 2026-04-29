@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renata Bordados</title>
     <link rel="shortcut icon" href="img/fig/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <script src="js/style.js" defer></script>
+    <script src="js/style.js"defer></script>
 </head>
+
 <body>
 
     <div class="nav-container">
@@ -16,70 +18,116 @@
 
             <div class="info">
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Produtos">Galeria</a></li>
+                    <li><a href="#Contato">Contato</a></li>
                 </ul>
             </div>
 
-            <button>Fazer um orçamento</button>
+            <button id="orcamento">Fazer um orçamento personalisado</button>
         </div>
     </div>
 
     <main>
         <div class="page1">
 
-    <div class="page1-text">
-        <h1>Bordados que contam histórias</h1>
-        <p>Transforme suas ideias em arte têxtil. Criações exclusivas e personalizadas com acabamento premium.</p>
+            <div class="page1-text">
+                <h1>Bordados que contam histórias</h1>
+                <p>Transforme suas ideias em arte têxtil. Criações exclusivas e personalizadas com acabamento premium.
+                </p>
 
-        <div class="page1-btn">
-            <button id="produto">ver portifolio</button>
-            <button id="Contato">contato </button>
+                <div class="page1-btn">
+                    <button class="produto" id="produtos">ver portifolio</button>
+                    <button class="Contato-btn" id="contato">contato </button>
+                </div>
+            </div>
+
+            <div class="page1img">
+                <img src="img/fig/perfil.png" alt="renata bordados">
+            </div>
+
+
+
+
         </div>
-    </div>
 
-    <div class="page1img">
-        <img src="img/fig/perfil.png" alt="">
-    </div>
-
-    
-
-
-</div>
-
-<div class="page2">
-        <h2>Por que escolher nossos bordados?</h2>
-        <p>Qualidade, exclusividade e paixão em cada ponto</p>
-        <div class="container">
-            <div class="box">
-                <img src="img/icons/icons8-sparkles-96.png" alt="">
-                <h3>100% artesanal</h3>
-               <p> Cada peça é bordada à mão com atenção aos detalhes </p>
-            </div>
-            <div class="box">
-                <img src="img/icons/icons8-paleta-de-pintura-80.png" alt="">
-                <h3>Design Exclusivo</h3>
-              <p> Criações únicas e personalizadas para você</p>
-            </div>
-            <div class="box">
-                <img src="img/icons/icons8-raio-80.png" alt="">
-                <h3>Entrega Rápida</h3>
-                <p>Produção ágil sem perder a qualidade</p>
-            </div>
-            <div class="box">
-                <img src="img/icons/icons8-diamante-80.png" alt="">
-                <h3>Alta Qualidade</h3>
-              <p>Linhas premium e acabamento impecável</p>
+        <div class="page2" id="Sobre">
+            <h2>Por que escolher nossos bordados?</h2>
+            <p>Qualidade, exclusividade e paixão em cada ponto</p>
+            <div class="container">
+                <div class="box">
+                    <img src="img/icons/icons8-sparkles-96.png" alt="100% artesanal">
+                    <h3>100% artesanal</h3>
+                    <p> Cada peça é bordada à mão com atenção aos detalhes </p>
+                </div>
+                <div class="box">
+                    <img src="img/icons/icons8-paleta-de-pintura-80.png" alt="design exclusivo">
+                    <h3>Design Exclusivo</h3>
+                    <p> Criações únicas e personalizadas para você</p>
+                </div>
+                <div class="box">
+                    <img src="img/icons/icons8-raio-80.png" alt="entrega rápida">
+                    <h3>Entrega Rápida</h3>
+                    <p>Produção ágil sem perder a qualidade</p>
+                </div>
+                <div class="box">
+                    <img src="img/icons/icons8-diamante-80.png" alt="alta qualidade">
+                    <h3>Alta Qualidade</h3>
+                    <p>Linhas premium e acabamento impecável</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="page3">
-        <h2>Nossos Trabalhos</h2>
-        <p>Conheça algumas de nossas criações exclusivas</p>
-    </div>
+        <div class="page3">
+            <h2>Nossos Trabalhos</h2>
+            <p>Conheça algumas de nossas criações exclusivas</p>
+
+            <div class="container-produtos" id="Produtos">
+                <div class="box-produto">
+                    <img src="img/produtos/bernado.jpeg" alt="imagem de um bordado de um menino chamado bernardo">
+                </div>
+                <div class="box-produto">
+                    <img src="img/produtos/cafe.jpeg" alt="imagem de um bordado de um cafe">
+                </div>
+                <div class="box-produto">
+                    <img src="img/produtos/cozinha.jpeg" alt="imagem de um bordado de uma cozinha">
+                </div>
+
+                <div class="box-produto">
+                    <img src="img/produtos/elisa.jpeg" alt="imagem de um bordado de uma menina chamada elisa">
+                </div>
+                <div class="box-produto">
+                    <img src="img/produtos/florCampo.jpeg" alt="imagem de um bordado de uma flor no campo">
+                </div>
+                <div class="box-produto">
+                    <img src="img/produtos/heloá.jpeg" alt="imagem de um bordado de uma menina chamada heloisa">
+                </div>
+                
+            </div>
+        </div>
+        </div>
     </main>
+    <footer>
+        <div class="footer" id="Contato">
+            <h2>Entre em contato</h2>
+            <p>Solicite um orçamento ou tire suas dúvidas</p>
+
+            <div class="footer-info" >
+                <div class="footer-box" id="whatsapp">
+                    <img src="img/icons/icons8-whatsapp-48.png" alt="whatsapp">
+                    <h3>WhatsApp</h3>
+                    <p>(11) 99851-4898</p>
+                </div>
+
+                <div class="footer-box" id="instagram">
+                    <img src="img/icons/icons8-instagram-48.png" alt="instagram">
+                    <h3>Instagram</h3>
+                    <p>@renatabordados</p>
+                </div>
+            </div>
+            <p>&copy;<span id="ano"></span> Renata Bordados. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
+
 </html>
