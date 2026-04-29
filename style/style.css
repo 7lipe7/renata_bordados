@@ -62,9 +62,20 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+
+
+/* Link dentro do botão */
+button a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+button:hover , button a:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(184, 177, 177, 0.432);
+    color: #fff;
 }
 
 /* HERO */
@@ -79,7 +90,7 @@ button:hover {
 /* CORRIGIDO */
 .page1-btn {
     display: flex;
-    gap: 15px;
+    gap: 8px;
     margin-top: 20px;
 }
 
@@ -199,7 +210,8 @@ button:hover {
 
 /* SCROLL AJUSTADO PARA NAVBAR FIXA */
 #Produtos,
-#Sobre {
+#Sobre,
+#Contato {
     scroll-margin-top: 90px;
 }
 
