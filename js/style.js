@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnOrcamento = document.querySelector('#orcamento');
     const whatsappBtn = document.querySelector('#whatsapp');
     const instagramBtn = document.querySelector('#instagram');
+ 
 
     // WhatsApp
     if (whatsappBtn) {

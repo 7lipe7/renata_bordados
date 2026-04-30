@@ -221,7 +221,7 @@ footer {
     padding: 10px;
     background: #222;
     color: white;
-    margin-top: 50px;
+  
 }
 
 .footer {
@@ -241,11 +241,12 @@ footer {
 }
 
 .footer-info {
-    
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
-    margin-top: 15px;
+  
 }
 
 /* CORRIGIDO */
@@ -253,6 +254,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 /* ================= RESPONSIVO ================= */
@@ -364,5 +366,9 @@ footer {
     text-align: center;
     margin: 0 auto;
    }
+   .nav{
+   position: static;
+   margin-top: -80px;
+}
    
 }
