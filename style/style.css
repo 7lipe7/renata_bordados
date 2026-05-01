@@ -370,5 +370,15 @@ footer {
    position: static;
    margin-top: -80px;
 }
+.Contato-btn {
+    width: 80%;
+}
+.Contato-btn a {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;}
    
 }
