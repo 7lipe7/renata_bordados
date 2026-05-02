@@ -26,16 +26,24 @@ body {
     backdrop-filter: blur(10px);
     z-index: 1000;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    color: #333;
 }
 
 .info {
     margin-left: auto;
+    
 }
 
 .info ul {
     display: flex;
     gap: 30px;
     list-style: none;
+}
+.info  a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    color: #333;
 }
 
 .TOP h1{
