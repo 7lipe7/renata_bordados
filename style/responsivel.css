@@ -1,0 +1,144 @@
+
+@media (max-width: 1024px) {
+
+    .page1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page1img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .page1-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+    }
+
+    .box-produto {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .info {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .info ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .page1 {
+        padding: 40px 5%;
+    }
+
+    .page1-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .page2 h2,
+    .page3 h2 {
+        font-size: 1.8rem;
+    }
+
+    .container,
+    .container-produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box,
+    .box-produto {
+        width: 100%;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .page1-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .page2 h2,
+    .page3 h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+   .info ul {
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+   .nav h2 {
+    text-align: center;
+    margin: 0 auto;
+   }
+   .nav{
+   position: static;
+   margin-top: -80px;
+}
+.Contato-btn {
+    width: 80%;
+}
+.Contato-btn a {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+}
+.footer-info {
+    flex-direction: column;
+    align-items: center;
+}
+#voltar {
+    position: fixed;
+        top: 20px;
+        left: 85%;
+        z-index: 1001;
+        width: 45px;
+}
+
+.box-produto {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+}

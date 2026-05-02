@@ -38,15 +38,54 @@ body {
     list-style: none;
 }
 
+.TOP h1{
+    font-size: 3rem;
+    color: #333;
+}
+.TOP p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+.TOP {
+    margin-bottom: 50px;
+}   
+#voltar {
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    position: fixed;
+    top: 20px;
+    right: 20px; 
+    z-index: 1100;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Efeito hover (fica mais profissional) */
+#voltar:hover {
+    background: #555;
+    transform: scale(1.1);
+}
+
 a {
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     font-weight: 500;
     transition: 0.3s;
 }
 
 a:hover {
-    color: #000;
+    color: #ff0000;
 }
 
 /* BOTÕES */
@@ -74,7 +113,6 @@ button a {
 
 button:hover , button a:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(184, 177, 177, 0.432);
     color: #fff;
 }
 
@@ -123,10 +161,16 @@ button:hover , button a:hover {
 }
 
 .produto {
-    width: 200px;
-    background: transparent;
+    display: inline-block;
+    width: 100%;
+    background: #333;
     border: 2px solid #000;
-    color: #000;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    height: 50px;
 }
 
 .produto:hover {
@@ -255,136 +299,10 @@ footer {
     border-radius: 10px;
 }
 
-/* CORRIGIDO */
+
 .footer-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-}
-
-/* ================= RESPONSIVO ================= */
-
-@media (max-width: 1024px) {
-
-    .page1 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .page1img img {
-        width: 100%;
-        height: auto;
-    }
-
-    .page1-text h1 {
-        font-size: 2.2rem;
-    }
-
-    .box {
-        width: 90%;
-        height: auto;
-    }
-
-    .box-produto {
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
-
-    .info {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .info ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    button {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .page1 {
-        padding: 40px 5%;
-    }
-
-    .page1-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .page2 h2,
-    .page3 h2 {
-        font-size: 1.8rem;
-    }
-
-    .container,
-    .container-produtos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .box,
-    .box-produto {
-        width: 100%;
-    }
-
-    .footer-info {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .page1-text h1 {
-        font-size: 1.5rem;
-    }
-
-    .page2 h2,
-    .page3 h2 {
-        font-size: 1.5rem;
-    }
-
-    button {
-        padding: 10px;
-        font-size: 0.9rem;
-    }
-
-   .info ul {
-    display: flex;
-    flex-direction: row;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-    }
-   .nav h2 {
-    text-align: center;
-    margin: 0 auto;
-   }
-   .nav{
-   position: static;
-   margin-top: -80px;
-}
-.Contato-btn {
-    width: 80%;
-}
-.Contato-btn a {
-    display: block;
-    width: 100%;
-}
-
-.footer {
-    width: 100%;}
-   
 }
