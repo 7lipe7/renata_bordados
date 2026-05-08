@@ -24,9 +24,19 @@
         width: 90%;
         height: auto;
     }
+        .btnContato{
+left: 85%;
+top: 85%;
+}
+.btnContato img{
+width: 80px;
+height: 80px;
+}
 }
 
 @media (max-width: 768px) {
+
+
 
     .nav {
         flex-direction: column;
@@ -82,7 +92,7 @@
 @media (max-width: 480px) {
 
     .page1-text h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .page2 h2,
@@ -137,6 +147,14 @@
     width: 100%;
     height: auto;
     
+}
+.btnContato{
+left: 80%;
+top: 85%;
+}
+.btnContato img{
+width: 50px;
+height: 50px;
 }
 
 

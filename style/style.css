@@ -47,7 +47,7 @@ body {
 }
 
 .TOP h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #333;
 }
 .TOP p {
@@ -313,4 +313,22 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+.btnContato{
+display: flex;
+left: 90%;
+top: 85%;
+position: fixed;
+z-index: 1;
+}
+.btnContato img{
+width: 92px;
+height: 92px;
+}
+.btnContato:hover{
+transform: scale(1.1);
+}
+button.whatsapp{
+margin: none;
+background: transparent;
 }
