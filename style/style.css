@@ -168,7 +168,7 @@ button:hover , button a:hover {
     width: 200px;
 }
 
-.produto {
+.produto, .verMais {
     display: inline-block;
     width: 100%;
     background: #333;
@@ -178,7 +178,7 @@ button:hover , button a:hover {
     padding: 12px 20px;
     border-radius: 50px;
     transition: 0.3s;
-    height: 50px;
+    height: auto;
 }
 
 .produto:hover {
@@ -221,14 +221,17 @@ button:hover , button a:hover {
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* SEÇÃO 3 */
 .page3 {
     text-align: center;
     padding: 80px 10%;
 }
+.page3 p{
+margin-bottom: 30px;
+font-size: 1.4rem;
+}
 
 .page3 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 40px;
 }
 
@@ -239,6 +242,18 @@ button:hover , button a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
+.verMais{
+margin-top: 20px;
+width: auto;
+padding: 25px;
+font-size: 1.2rem;
+}
+.containerBtn{
+display: flex;
+justify-content: end;
+margin-right: 80px;
+}
+
 
 /* MELHORADO */
 .box-produto {
